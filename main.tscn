@@ -42,7 +42,6 @@ enabled_focus_mode = 0
 margin_right = 400.0
 margin_bottom = 200.0
 custom_styles/normal = SubResource( 1 )
-context_menu_enabled = false
 
 [node name="create" type="Button" parent="."]
 margin_left = 20.0

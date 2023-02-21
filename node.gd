@@ -27,7 +27,7 @@ func update():
 	$node_name.text = 'Name: ' + node_name
 	self.name = node_name
 	
-	start = string.find('bt.') + 3
+	start = string.find('=') + 1
 	end = string.find('(', start) - start
 	var node_type = string.substr(start, end).strip_edges()
 	
